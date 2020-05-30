@@ -27,7 +27,7 @@ typedef struct
  */
 typedef struct
 {
-	uint32_t SR;
+	uint32_t  SR;
 	uint32_t DR;
 	uint32_t BRR;
 	uint32_t CR1;
