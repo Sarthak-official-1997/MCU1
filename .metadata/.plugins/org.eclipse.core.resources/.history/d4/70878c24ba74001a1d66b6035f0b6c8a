@@ -1,0 +1,13 @@
+/*
+ * 007i2c_master_tx_testing.c
+ *
+ *  Created on: Mar 26, 2020
+ *      Author: Sarthak
+ */
+int main()
+{
+
+	for(;;);
+	return 0;
+}
+

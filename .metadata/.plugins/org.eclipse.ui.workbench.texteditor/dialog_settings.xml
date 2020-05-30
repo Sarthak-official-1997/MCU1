@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value=""/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="true"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="Regisis"/>
+			<item value="Reg"/>
+			<item value="I2C_RegDef_t"/>
+			<item value="RegDef"/>
+			<item value="GPIO"/>
+			<item value="uint8_t"/>
+			<item value="temp"/>
+			<item value="DISABLE"/>
+			<item value="PERIF_CLOCK"/>
+			<item value="Address"/>
+			<item value="addr"/>
+			<item value="ADDR"/>
+			<item value="__vo"/>
+		</list>
+		<list key="replacehistory">
+			<item value="Regis"/>
+			<item value="SPI"/>
+			<item value="uint32_t"/>
+			<item value="tempGPIO"/>
+			<item value="DIS"/>
+			<item value="PCLK"/>
+			<item value="Addr"/>
+			<item value="vola"/>
+			<item value="RegisDef"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1265"/>
+		<item key="DIALOG_Y_ORIGIN" value="361"/>
+		<item key="DIALOG_WIDTH" value="336"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

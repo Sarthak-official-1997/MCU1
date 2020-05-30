@@ -1,0 +1,9 @@
+spi_driver.c:11:9:GetFlagStatus	16	static
+spi_driver.c:34:6:SPI_Init	24	static
+spi_driver.c:85:6:SPI_DeInit	16	static
+spi_driver.c:104:6:SPI_PclkControl	16	static
+spi_driver.c:151:6:SPI_SendData	24	static
+spi_driver.c:179:6:SPI_ReceiveData	24	static
+spi_driver.c:212:6:SPI_PeripheralControl	16	static
+spi_driver.c:223:6:SPI_SSIconfig	16	static
+spi_driver.c:234:6:SPI_SSOEconfig	16	static

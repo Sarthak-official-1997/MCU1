@@ -1,0 +1,2425 @@
+2020-03-16 12:54:27,911 [INFO] Activator:176 - 
+
+
+2020-03-16 12:54:27,911 [INFO] Activator:177 - !SESSION log4j initialized
+2020-03-16 12:54:45,851 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541
+2020-03-16 12:54:45,877 [INFO] DbMcusXml:68 - Set database path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/
+2020-03-16 12:54:45,882 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/boardmanager/
+2020-03-16 12:54:45,883 [INFO] DbMcus:265 - Set plugin images path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2020-03-16 12:54:45,884 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2020-03-16 12:54:45,886 [INFO] APIGFXSelector:72 - Set database path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/mcu/
+2020-03-16 12:54:45,911 [INFO] DbMcusAds:72 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 12:54:45,912 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 12:54:45,914 [INFO] DbMcusJson:59 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 12:54:45,915 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 12:54:45,916 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 12:54:46,187 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-03-16 12:54:46,313 [INFO] RulesReader:52 - Compatibility file has been processed (179 Rules)
+2020-03-16 12:54:46,427 [INFO] MicroXplorer:570 - Detected Java Version = 1.8.0_202
+2020-03-16 12:54:46,428 [INFO] DbMcusXml:68 - Set database path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/
+2020-03-16 12:54:46,428 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/boardmanager/
+2020-03-16 12:54:46,429 [INFO] DbMcus:265 - Set plugin images path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2020-03-16 12:54:46,429 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2020-03-16 12:54:46,429 [INFO] APIGFXSelector:72 - Set database path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/mcu/
+2020-03-16 12:54:46,429 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 12:54:46,429 [INFO] DbMcusAds:72 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 12:54:46,429 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 12:54:46,430 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 12:54:46,430 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 12:54:46,430 [INFO] DbMcusJson:59 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 12:54:46,430 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 12:54:46,430 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 12:54:46,430 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 12:54:46,430 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 12:54:46,430 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 12:54:46,431 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 12:54:46,431 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-03-16 12:54:46,522 [INFO] MainPanel:185 - HeapMemory: 316669952
+2020-03-16 12:54:46,628 [INFO] DbMcusXml:68 - Set database path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/
+2020-03-16 12:54:46,628 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/boardmanager/
+2020-03-16 12:54:46,628 [INFO] DbMcus:265 - Set plugin images path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2020-03-16 12:54:46,628 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2020-03-16 12:54:46,628 [INFO] APIGFXSelector:72 - Set database path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/mcu/
+2020-03-16 12:54:46,629 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 12:54:46,630 [INFO] DbMcusAds:72 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 12:54:46,630 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 12:54:46,630 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 12:54:46,630 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 12:54:46,630 [INFO] DbMcusJson:59 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 12:54:46,630 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 12:54:46,630 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 12:54:46,631 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 12:54:46,631 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 12:54:46,631 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 12:54:46,631 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 12:54:46,631 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-03-16 12:54:46,653 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541
+2020-03-16 12:54:46,655 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=]
+2020-03-16 12:54:46,657 [INFO] PluginManage:292 - Check plugin analytics
+2020-03-16 12:54:46,679 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2020-03-16 12:54:46,679 [INFO] PluginManage:292 - Check plugin clock
+2020-03-16 12:54:46,700 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2020-03-16 12:54:46,700 [INFO] PluginManage:292 - Check plugin ddr
+2020-03-16 12:54:46,705 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2020-03-16 12:54:46,706 [INFO] PluginManage:292 - Check plugin filemanager
+2020-03-16 12:54:46,839 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2020-03-16 12:54:46,839 [INFO] PluginManage:292 - Check plugin ipmanager
+2020-03-16 12:54:46,848 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2020-03-16 12:54:46,848 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2020-03-16 12:54:46,866 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2020-03-16 12:54:46,866 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2020-03-16 12:54:46,896 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2020-03-16 12:54:46,896 [INFO] PluginManage:292 - Check plugin power
+2020-03-16 12:54:46,918 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2020-03-16 12:54:46,918 [INFO] PluginManage:292 - Check plugin projectmanager
+2020-03-16 12:54:46,933 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2020-03-16 12:54:46,933 [INFO] PluginManage:292 - Check plugin thirdparty
+2020-03-16 12:54:47,018 [INFO] ThirdPartyDb:294 - Open Third Party DataBase File (C:/Users/Sarthak/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 33 ms. number of Sw pack : 11
+2020-03-16 12:54:47,030 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2020-03-16 12:54:47,031 [INFO] PluginManage:292 - Check plugin tools
+2020-03-16 12:54:47,052 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2020-03-16 12:54:47,052 [INFO] PluginManage:292 - Check plugin updater
+2020-03-16 12:54:47,065 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2020-03-16 12:54:47,065 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2020-03-16 12:54:47,289 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2020-03-16 12:54:47,412 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:47,412 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2020-03-16 12:54:47,438 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:47,439 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2020-03-16 12:54:47,475 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:47,476 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2020-03-16 12:54:47,495 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:47,495 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2020-03-16 12:54:47,519 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:47,519 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2020-03-16 12:54:47,551 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:47,552 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2020-03-16 12:54:47,565 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:47,565 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2020-03-16 12:54:47,582 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:47,582 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2020-03-16 12:54:47,635 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:47,635 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2020-03-16 12:54:47,651 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:47,651 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2020-03-16 12:54:47,670 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:47,671 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2020-03-16 12:54:47,756 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:47,757 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2020-03-16 12:54:47,766 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:47,767 [INFO] PluginManager:200 - loadIPPluginJar : add gfxsimulator
+2020-03-16 12:54:47,883 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:47,883 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2020-03-16 12:54:47,895 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:47,896 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2020-03-16 12:54:47,959 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:47,959 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2020-03-16 12:54:47,983 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:47,983 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2020-03-16 12:54:48,031 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:48,031 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2020-03-16 12:54:48,069 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:48,069 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2020-03-16 12:54:48,187 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:48,187 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2020-03-16 12:54:48,219 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:48,219 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2020-03-16 12:54:48,230 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:48,230 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2020-03-16 12:54:48,240 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:48,241 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2020-03-16 12:54:48,269 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:48,269 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2020-03-16 12:54:48,316 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:48,317 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2020-03-16 12:54:48,333 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:48,335 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2020-03-16 12:54:48,353 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:48,353 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2020-03-16 12:54:48,364 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:48,364 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2020-03-16 12:54:48,413 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:48,413 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2020-03-16 12:54:48,446 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:48,446 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2020-03-16 12:54:48,476 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:48,477 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2020-03-16 12:54:48,496 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:48,497 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2020-03-16 12:54:48,560 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:48,560 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2020-03-16 12:54:48,582 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:48,582 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2020-03-16 12:54:48,604 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:48,605 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2020-03-16 12:54:48,626 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:48,626 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2020-03-16 12:54:48,648 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:48,649 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2020-03-16 12:54:48,689 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2020-03-16 12:54:48,689 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2020-03-16 12:54:49,311 [INFO] BoardConnectionPanel:220 - [DDR PANEL] osNameString: Windows
+2020-03-16 12:54:49,475 [INFO] BoardConnectionPanel:3149 - [DDR PANEL] STM32CubeIDE environment
+2020-03-16 12:54:49,476 [INFO] MainDdrPanel:100 - [DDR PANEL] GETTER - cubeProgrammerPath is: null
+2020-03-16 12:54:49,668 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-03-16 12:54:49,973 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-03-16 12:54:49,982 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2020-03-16 12:54:49,983 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-03-16 12:54:49,989 [INFO] BoardConnectionPanel:3149 - [DDR PANEL] STM32CubeIDE environment
+2020-03-16 12:54:49,990 [INFO] MainDdrPanel:100 - [DDR PANEL] GETTER - cubeProgrammerPath is: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.1.0.201910081157\tools\bin
+2020-03-16 12:54:49,998 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.1.0.201910081157\tools\bin\STM32_Programmer_CLI.exe -l
+2020-03-16 12:54:50,047 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-03-16 12:54:50,047 [ERROR] IntegrityCheckThread:230 - Cannot obtain thirdParties list 21
+2020-03-16 12:54:50,047 [ERROR] IntegrityCheckThread:99 - Unexpected exception IntegrityCheckThread Thread: Updater error
+2020-03-16 12:54:50,049 [INFO] ThirdPartyDb:264 - Close Third Party DataBase File (C:/Users/Sarthak/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2020-03-16 12:54:50,400 [INFO] MainDdrPanel:90 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.1.0.201910081157\tools\bin
+2020-03-16 12:54:50,431 [INFO] Updater:886 - Updater Version found : 5.4.0
+2020-03-16 12:54:50,457 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541
+2020-03-16 12:54:50,730 [INFO] MainUpdater:2232 - connection check result : 10
+2020-03-16 12:54:50,731 [INFO] MainUpdater:2859 - Updater definition file requires update
+2020-03-16 12:54:50,734 [INFO] MainUpdater:236 - Updater Check For Update Now.
+2020-03-16 12:54:50,734 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.40
+2020-03-16 12:54:50,864 [INFO] ServerAccessManage:348 - Download File updaters.zip
+2020-03-16 12:54:51,049 [INFO] FileExtend:210 - Unzip File : updaters.zip
+2020-03-16 12:54:51,050 [INFO] FileExtend:225 - Standard Zip Deflate
+2020-03-16 12:54:53,212 [INFO] ServerAccessManage:348 - Download File PacksControlFlags.xml
+2020-03-16 12:54:53,323 [INFO] ServerAccessManage:348 - Download File cubemx.pidx
+2020-03-16 12:54:54,306 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AI.pdsc
+2020-03-16 12:54:54,934 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-BLE1.pdsc
+2020-03-16 12:54:55,864 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2020-03-16 12:54:56,454 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-BLE2.pdsc
+2020-03-16 12:54:56,683 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-GNSS1.pdsc
+2020-03-16 12:54:57,344 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2020-03-16 12:54:57,714 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2020-03-16 12:54:58,384 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2020-03-16 12:54:59,073 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2020-03-16 12:54:59,104 [INFO] MainUpdater:2232 - connection check result : 10
+2020-03-16 12:54:59,104 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2020-03-16 12:54:59,294 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2020-03-16 12:54:59,304 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2020-03-16 12:54:59,304 [INFO] DbMcusXml:106 - Load MCU database from C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/families.xml
+2020-03-16 12:54:59,614 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2020-03-16 12:54:59,898 [INFO] DbMcusJson:87 - JSON generation date=Mon Sep 23 15:05:45 IST 2019 (1569231345)
+2020-03-16 12:55:00,294 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2020-03-16 12:55:00,769 [INFO] DbMcus:193 - Found 1544 MCUs (1504 are supported by CubeMX, 1504 are visible in CubeMX)
+2020-03-16 12:55:00,771 [INFO] ApiDb:158 - Load user favorites file C:\Users\Sarthak/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2020-03-16 12:55:00,771 [INFO] ApiDb:163 - User favorites MCUs=[]
+2020-03-16 12:55:00,771 [INFO] DbMcus:204 - Set 0 / 0 favorites MCUs
+2020-03-16 12:55:01,173 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-MEMS1.pdsc
+2020-03-16 12:55:01,488 [INFO] DbMcusAds:130 - JSON generation date=Wed Feb 20 22:16:15 IST 2019 (1550681175)
+2020-03-16 12:55:01,488 [WARN] McuDetailPanel:183 - Failed to get advertising image, set to default
+2020-03-16 12:55:01,965 [INFO] DbMcusDocs:126 - JSON generation date=Mon Sep 23 15:05:45 IST 2019 (1569231345)
+2020-03-16 12:55:02,156 [INFO] DbMcusDocs:61 - Found 525 MCUs documents
+2020-03-16 12:55:02,156 [INFO] ApiDb:186 - Save user favorites file C:\Users\Sarthak/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2020-03-16 12:55:02,156 [INFO] ApiDb:191 - User favorites MCUs=[]
+2020-03-16 12:55:02,156 [INFO] DbMcusXml:106 - Load MCU database from C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/families.xml
+2020-03-16 12:55:02,492 [INFO] DbMcusJson:87 - JSON generation date=Mon Sep 23 15:05:45 IST 2019 (1569231345)
+2020-03-16 12:55:02,639 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-NFC4.pdsc
+2020-03-16 12:55:02,998 [INFO] DbMcus:193 - Found 1544 MCUs (1504 are supported by CubeMX, 1504 are visible in CubeMX)
+2020-03-16 12:55:02,998 [INFO] ApiDb:158 - Load user favorites file C:\Users\Sarthak/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2020-03-16 12:55:02,998 [INFO] ApiDb:163 - User favorites MCUs=[]
+2020-03-16 12:55:02,998 [INFO] DbMcus:204 - Set 0 / 0 favorites MCUs
+2020-03-16 12:55:03,129 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2020-03-16 12:55:03,214 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-SUBG2.pdsc
+2020-03-16 12:55:03,477 [INFO] DbBoardsDocs:118 - JSON generation date=Mon Sep 23 15:05:45 IST 2019 (1569231345)
+2020-03-16 12:55:03,511 [INFO] DbBoardsPdsc:92 - Found 19 items
+2020-03-16 12:55:03,529 [INFO] DbBoardsPdsc:92 - Found 9 items
+2020-03-16 12:55:03,541 [INFO] DbBoardsPdsc:92 - Found 27 items
+2020-03-16 12:55:03,551 [INFO] DbBoardsPdsc:92 - Found 1 items
+2020-03-16 12:55:03,571 [INFO] DbBoardsPdsc:92 - Found 38 items
+2020-03-16 12:55:03,612 [INFO] DbBoardsPdsc:92 - Found 38 items
+2020-03-16 12:55:03,630 [INFO] DbBoardsPdsc:92 - Found 1 items
+2020-03-16 12:55:03,662 [INFO] DbBoardsJson:79 - JSON generation date=Fri Sep 27 17:07:26 IST 2019 (1569584246)
+2020-03-16 12:55:03,672 [INFO] DbBoards:120 - Found 133 boards (132 are supported by CubeMX)
+2020-03-16 12:55:03,672 [INFO] DbBoardsDocs:118 - JSON generation date=Mon Sep 23 15:05:45 IST 2019 (1569231345)
+2020-03-16 12:55:03,682 [INFO] DbBoardsDocs:57 - Found 160 boards documents
+2020-03-16 12:55:03,690 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2020-03-16 12:55:03,690 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2020-03-16 12:55:03,690 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2020-03-16 12:55:03,690 [WARN] DbBoards:130 - board P-NUCLEO-WB55 has no document id list !
+2020-03-16 12:55:03,692 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2020-03-16 12:55:03,692 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2020-03-16 12:55:03,692 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2020-03-16 12:55:03,692 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2020-03-16 12:55:03,692 [WARN] DbBoards:130 - board STM32MP157A-DK1 has no document id list !
+2020-03-16 12:55:03,692 [WARN] DbBoards:130 - board STM32L562E-DK has no document id list !
+2020-03-16 12:55:03,692 [WARN] DbBoards:130 - board STM32100E-EVAL has no document id list !
+2020-03-16 12:55:03,692 [WARN] DbBoards:130 - board STM32303C-EVAL has no document id list !
+2020-03-16 12:55:03,692 [WARN] DbBoards:130 - board STM32L152D-EVAL has no document id list !
+2020-03-16 12:55:03,692 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2020-03-16 12:55:03,692 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2020-03-16 12:55:03,692 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2020-03-16 12:55:03,692 [WARN] DbBoards:130 - board STM32L552E-EV has no document id list !
+2020-03-16 12:55:03,692 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2020-03-16 12:55:03,853 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-TOUCHGFX.pdsc
+2020-03-16 12:55:04,363 [ERROR] DbBoards:192 - Image file not found for board STM32G0316-DISCO: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/stm32g0316discovery_small.jpg
+2020-03-16 12:55:04,463 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-ALGOBUILD.pdsc
+2020-03-16 12:55:04,946 [INFO] ApiDb:158 - Load user favorites file C:\Users\Sarthak/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2020-03-16 12:55:04,946 [INFO] ApiDb:163 - User favorites Boards=[]
+2020-03-16 12:55:04,946 [INFO] DbBoards:209 - Set 0 / 0 favorites Boards
+2020-03-16 12:55:04,956 [INFO] DbBoardsDocs:57 - Found 320 boards documents
+2020-03-16 12:55:04,956 [INFO] ApiDb:186 - Save user favorites file C:\Users\Sarthak/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2020-03-16 12:55:04,956 [INFO] ApiDb:191 - User favorites Boards=[]
+2020-03-16 12:55:04,956 [INFO] DbBoardsPdsc:92 - Found 19 items
+2020-03-16 12:55:04,956 [INFO] DbBoardsPdsc:92 - Found 9 items
+2020-03-16 12:55:04,956 [INFO] DbBoardsPdsc:92 - Found 27 items
+2020-03-16 12:55:04,965 [INFO] DbBoardsPdsc:92 - Found 1 items
+2020-03-16 12:55:04,965 [INFO] DbBoardsPdsc:92 - Found 38 items
+2020-03-16 12:55:04,970 [INFO] DbBoardsPdsc:92 - Found 38 items
+2020-03-16 12:55:04,970 [INFO] DbBoardsPdsc:92 - Found 1 items
+2020-03-16 12:55:04,985 [INFO] DbBoardsJson:79 - JSON generation date=Fri Sep 27 17:07:26 IST 2019 (1569584246)
+2020-03-16 12:55:04,987 [INFO] DbBoards:120 - Found 133 boards (132 are supported by CubeMX)
+2020-03-16 12:55:04,987 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2020-03-16 12:55:04,987 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2020-03-16 12:55:04,987 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2020-03-16 12:55:04,987 [WARN] DbBoards:130 - board P-NUCLEO-WB55 has no document id list !
+2020-03-16 12:55:04,987 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2020-03-16 12:55:04,987 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2020-03-16 12:55:04,987 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2020-03-16 12:55:04,987 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2020-03-16 12:55:04,987 [WARN] DbBoards:130 - board STM32MP157A-DK1 has no document id list !
+2020-03-16 12:55:04,987 [WARN] DbBoards:130 - board STM32L562E-DK has no document id list !
+2020-03-16 12:55:04,987 [WARN] DbBoards:130 - board STM32100E-EVAL has no document id list !
+2020-03-16 12:55:04,987 [WARN] DbBoards:130 - board STM32303C-EVAL has no document id list !
+2020-03-16 12:55:04,987 [WARN] DbBoards:130 - board STM32L152D-EVAL has no document id list !
+2020-03-16 12:55:04,987 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2020-03-16 12:55:04,987 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2020-03-16 12:55:04,987 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2020-03-16 12:55:04,987 [WARN] DbBoards:130 - board STM32L552E-EV has no document id list !
+2020-03-16 12:55:04,987 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2020-03-16 12:55:05,287 [ERROR] DbBoards:192 - Image file not found for board STM32G0316-DISCO: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/stm32g0316discovery_small.jpg
+2020-03-16 12:55:05,506 [INFO] ApiDb:158 - Load user favorites file C:\Users\Sarthak/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2020-03-16 12:55:05,506 [INFO] ApiDb:163 - User favorites Boards=[]
+2020-03-16 12:55:05,506 [INFO] DbBoards:209 - Set 0 / 0 favorites Boards
+2020-03-16 12:55:05,675 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2020-03-16 12:55:05,800 [WARN] BoardDetailPanel:182 - Failed to get advertising image, set to default
+2020-03-16 12:55:05,820 [INFO] DbMcusDocs:126 - JSON generation date=Mon Sep 23 15:05:45 IST 2019 (1569231345)
+2020-03-16 12:55:05,875 [INFO] DbMcusDocs:61 - Found 525 MCUs documents
+2020-03-16 12:55:05,875 [INFO] ApiDb:186 - Save user favorites file C:\Users\Sarthak/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2020-03-16 12:55:05,875 [INFO] ApiDb:191 - User favorites MCUs=[]
+2020-03-16 12:55:05,875 [INFO] DbMcusXml:106 - Load MCU database from C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/families.xml
+2020-03-16 12:55:06,088 [INFO] DbMcusJson:87 - JSON generation date=Mon Sep 23 15:05:45 IST 2019 (1569231345)
+2020-03-16 12:55:06,455 [INFO] ServerAccessManage:348 - Download File ARM.CMSIS.pdsc
+2020-03-16 12:55:06,495 [INFO] DbMcus:193 - Found 1544 MCUs (1504 are supported by CubeMX, 1504 are visible in CubeMX)
+2020-03-16 12:55:06,495 [INFO] ApiDb:158 - Load user favorites file C:\Users\Sarthak/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2020-03-16 12:55:06,495 [INFO] ApiDb:163 - User favorites MCUs=[]
+2020-03-16 12:55:06,495 [INFO] DbMcus:204 - Set 0 / 0 favorites MCUs
+2020-03-16 12:55:06,535 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2020-03-16 12:55:06,675 [INFO] DbBoardsDocs:118 - JSON generation date=Mon Sep 23 15:05:45 IST 2019 (1569231345)
+2020-03-16 12:55:06,675 [INFO] DbBoardsDocs:57 - Found 160 boards documents
+2020-03-16 12:55:06,675 [INFO] ApiDb:186 - Save user favorites file C:\Users\Sarthak/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2020-03-16 12:55:06,675 [INFO] ApiDb:191 - User favorites Boards=[]
+2020-03-16 12:55:06,680 [INFO] DbBoardsPdsc:92 - Found 19 items
+2020-03-16 12:55:06,680 [INFO] DbBoardsPdsc:92 - Found 9 items
+2020-03-16 12:55:06,680 [INFO] DbBoardsPdsc:92 - Found 27 items
+2020-03-16 12:55:06,685 [INFO] DbBoardsPdsc:92 - Found 1 items
+2020-03-16 12:55:06,685 [INFO] DbBoardsPdsc:92 - Found 38 items
+2020-03-16 12:55:06,691 [INFO] DbBoardsPdsc:92 - Found 38 items
+2020-03-16 12:55:06,691 [INFO] DbBoardsPdsc:92 - Found 1 items
+2020-03-16 12:55:06,721 [INFO] DbBoardsJson:79 - JSON generation date=Fri Sep 27 17:07:26 IST 2019 (1569584246)
+2020-03-16 12:55:06,725 [INFO] DbBoards:120 - Found 133 boards (132 are supported by CubeMX)
+2020-03-16 12:55:06,725 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2020-03-16 12:55:06,725 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2020-03-16 12:55:06,752 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2020-03-16 12:55:06,752 [WARN] DbBoards:130 - board P-NUCLEO-WB55 has no document id list !
+2020-03-16 12:55:06,752 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2020-03-16 12:55:06,752 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2020-03-16 12:55:06,752 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2020-03-16 12:55:06,752 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2020-03-16 12:55:06,752 [WARN] DbBoards:130 - board STM32MP157A-DK1 has no document id list !
+2020-03-16 12:55:06,752 [WARN] DbBoards:130 - board STM32L562E-DK has no document id list !
+2020-03-16 12:55:06,752 [WARN] DbBoards:130 - board STM32100E-EVAL has no document id list !
+2020-03-16 12:55:06,752 [WARN] DbBoards:130 - board STM32303C-EVAL has no document id list !
+2020-03-16 12:55:06,752 [WARN] DbBoards:130 - board STM32L152D-EVAL has no document id list !
+2020-03-16 12:55:06,752 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2020-03-16 12:55:06,752 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2020-03-16 12:55:06,752 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2020-03-16 12:55:06,752 [WARN] DbBoards:130 - board STM32L552E-EV has no document id list !
+2020-03-16 12:55:06,752 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2020-03-16 12:55:07,108 [ERROR] DbBoards:192 - Image file not found for board STM32G0316-DISCO: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/stm32g0316discovery_small.jpg
+2020-03-16 12:55:07,312 [INFO] ApiDb:158 - Load user favorites file C:\Users\Sarthak/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2020-03-16 12:55:07,312 [INFO] ApiDb:163 - User favorites Boards=[]
+2020-03-16 12:55:07,312 [INFO] DbBoards:209 - Set 0 / 0 favorites Boards
+2020-03-16 12:55:07,312 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2020-03-16 12:55:07,421 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2020-03-16 12:55:07,546 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2020-03-16 12:55:12,076 [INFO] LoadServerUpdatesThread:287 - End of LoadServerUpdate Thread
+2020-03-16 12:55:12,076 [INFO] ThirdPartyDb:294 - Open Third Party DataBase File (C:/Users/Sarthak/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 0 ms. number of Sw pack : 11
+2020-03-16 12:55:12,092 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,170 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,264 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,279 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,295 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,311 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,326 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:594 - 
+2020-03-16 12:55:12,342 [INFO] MxPackages:628 - 
+2020-03-16 12:55:12,404 [WARN] ConditionMgr:787 - The TOptions attribute is not supported 
+2020-03-16 12:55:12,404 [WARN] ConditionMgr:787 - The TOptions attribute is not supported 
+2020-03-16 12:55:12,404 [WARN] ConditionMgr:787 - The TOptions attribute is not supported 
+2020-03-16 12:55:12,404 [WARN] ConditionMgr:787 - The TOptions attribute is not supported 
+2020-03-16 12:55:12,404 [WARN] ConditionMgr:787 - The TOptions attribute is not supported 
+2020-03-16 12:55:12,404 [WARN] ConditionMgr:787 - The TOptions attribute is not supported 
+2020-03-16 12:55:12,404 [INFO] PopulateThirdPartyThread:82 - Ending populate Thread
+2020-03-16 12:55:12,404 [INFO] ThirdPartyDb:264 - Close Third Party DataBase File (C:/Users/Sarthak/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2020-03-16 12:55:12,451 [INFO] ThirdPartyDb:294 - Open Third Party DataBase File (C:/Users/Sarthak/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 0 ms. number of Sw pack : 21
+2020-03-16 12:55:12,451 [INFO] Engine:437 - softwarePackList size : 21
+2020-03-16 12:55:12,467 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-BLE1 have been done, and update is requested
+2020-03-16 12:55:12,514 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-MEMS1 have been done, and update is requested
+2020-03-16 12:55:12,514 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-AI have been done, and update is requested
+2020-03-16 12:55:12,529 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-NFC4 have been done, and update is requested
+2020-03-16 12:55:12,529 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-GNSS1 have been done, and update is requested
+2020-03-16 12:55:12,576 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-MEMS1 have been done, and update is requested
+2020-03-16 12:55:12,576 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-AI have been done, and update is requested
+2020-03-16 12:55:12,717 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-MEMS1 have been done, and update is requested
+2020-03-16 12:55:12,732 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-AI have been done, and update is requested
+2020-03-16 12:55:12,732 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-NFC4 have been done, and update is requested
+2020-03-16 12:55:12,748 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-GNSS1 have been done, and update is requested
+2020-03-16 12:55:12,748 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-AI have been done, and update is requested
+2020-03-16 12:55:12,748 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-BLE1 have been done, and update is requested
+2020-03-16 12:55:12,764 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-BLE2 have been done, and update is requested
+2020-03-16 12:55:12,779 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-GNSS1 have been done, and update is requested
+2020-03-16 12:55:12,998 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-MEMS1 have been done, and update is requested
+2020-03-16 12:55:13,014 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-NFC4 have been done, and update is requested
+2020-03-16 12:55:13,014 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-SUBG2 have been done, and update is requested
+2020-03-16 12:55:13,029 [INFO] Engine:453 - compute dependency for SwPack X-CUBE-TOUCHGFX have been done, no update is requested
+2020-03-16 12:55:13,029 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-ALGOBUILD have been done, and update is requested
+2020-03-16 12:55:13,060 [INFO] Engine:449 - compute dependency for SwPack CMSIS have been done, and update is requested
+2020-03-16 12:55:13,060 [INFO] ThirdPartyDb:264 - Close Third Party DataBase File (C:/Users/Sarthak/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2020-03-16 12:55:13,107 [INFO] ThirdPartyDb:294 - Open Third Party DataBase File (C:/Users/Sarthak/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 15 ms. number of Sw pack : 21
+2020-03-16 12:55:13,107 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-AI.5.0.0
+2020-03-16 12:55:13,107 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-AI.5.0.0
+2020-03-16 12:55:13,107 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-BLE1.5.0.0
+2020-03-16 12:55:13,107 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-BLE1.5.0.0
+2020-03-16 12:55:13,107 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-BLE2.1.0.0
+2020-03-16 12:55:13,107 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-BLE2.1.0.0
+2020-03-16 12:55:13,107 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-GNSS1.4.1.0
+2020-03-16 12:55:13,107 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-GNSS1.4.1.0
+2020-03-16 12:55:13,107 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-MEMS1.7.1.0
+2020-03-16 12:55:13,107 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-MEMS1.7.1.0
+2020-03-16 12:55:13,107 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-NFC4.1.5.2
+2020-03-16 12:55:13,107 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-NFC4.1.5.2
+2020-03-16 12:55:13,107 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-SUBG2.1.1.0
+2020-03-16 12:55:13,107 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-SUBG2.1.1.0
+2020-03-16 12:55:13,107 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-TOUCHGFX.4.13.0
+2020-03-16 12:55:13,107 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-TOUCHGFX.4.13.0
+2020-03-16 12:55:13,107 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-ALGOBUILD.1.0.0
+2020-03-16 12:55:13,107 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-ALGOBUILD.1.0.0
+2020-03-16 12:55:13,107 [ERROR] Engine:78 - Software Pack is missing : ARM.CMSIS.5.6.0
+2020-03-16 12:55:13,107 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack ARM.CMSIS.5.6.0
+2020-03-16 13:14:06,131 [INFO] Activator:176 - 
+
+
+2020-03-16 13:14:06,134 [INFO] Activator:177 - !SESSION log4j initialized
+2020-03-16 13:14:12,127 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2020-03-16 13:14:12,138 [INFO] DbMcusXml:72 - Set database path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2020-03-16 13:14:12,141 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2020-03-16 13:14:12,141 [INFO] DbMcus:235 - Set plugin images path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-03-16 13:14:12,141 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-03-16 13:14:12,240 [INFO] DbMcusAds:85 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 13:14:12,241 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 13:14:12,242 [INFO] DbMcusJson:61 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 13:14:12,243 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 13:14:12,244 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 13:14:12,420 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-03-16 13:14:12,518 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2020-03-16 13:14:12,642 [INFO] MicroXplorer:570 - Detected Java Version = 1.8.0_202
+2020-03-16 13:14:12,642 [INFO] DbMcusXml:72 - Set database path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2020-03-16 13:14:12,642 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2020-03-16 13:14:12,642 [INFO] DbMcus:235 - Set plugin images path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-03-16 13:14:12,643 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-03-16 13:14:12,644 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 13:14:12,644 [INFO] DbMcusAds:85 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 13:14:12,644 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 13:14:12,644 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 13:14:12,644 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 13:14:12,644 [INFO] DbMcusJson:61 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 13:14:12,645 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 13:14:12,645 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 13:14:12,645 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 13:14:12,645 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 13:14:12,645 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 13:14:12,645 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 13:14:12,646 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-03-16 13:14:12,726 [INFO] MainPanel:181 - HeapMemory: 364904448
+2020-03-16 13:14:12,779 [INFO] DbMcusXml:72 - Set database path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2020-03-16 13:14:12,780 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2020-03-16 13:14:12,780 [INFO] DbMcus:235 - Set plugin images path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-03-16 13:14:12,780 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-03-16 13:14:12,780 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 13:14:12,780 [INFO] DbMcusAds:85 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 13:14:12,781 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 13:14:12,781 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 13:14:12,781 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 13:14:12,781 [INFO] DbMcusJson:61 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 13:14:12,781 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 13:14:12,781 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 13:14:12,781 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 13:14:12,782 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/
+2020-03-16 13:14:12,782 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 13:14:12,782 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder/ => C:\Users\Sarthak\.stmcufinder\plugins\mcufinder
+2020-03-16 13:14:12,782 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-03-16 13:14:12,800 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2020-03-16 13:14:12,801 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, tutovideos]
+2020-03-16 13:14:12,802 [INFO] PluginManage:292 - Check plugin analytics
+2020-03-16 13:14:12,807 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2020-03-16 13:14:12,807 [INFO] PluginManage:292 - Check plugin clock
+2020-03-16 13:14:12,818 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2020-03-16 13:14:12,818 [INFO] PluginManage:292 - Check plugin ddr
+2020-03-16 13:14:12,820 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2020-03-16 13:14:12,821 [INFO] PluginManage:292 - Check plugin filemanager
+2020-03-16 13:14:12,961 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2020-03-16 13:14:12,962 [INFO] PluginManage:292 - Check plugin ipmanager
+2020-03-16 13:14:12,974 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2020-03-16 13:14:12,975 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2020-03-16 13:14:12,983 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2020-03-16 13:14:12,983 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2020-03-16 13:14:13,013 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2020-03-16 13:14:13,013 [INFO] PluginManage:292 - Check plugin power
+2020-03-16 13:14:13,036 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2020-03-16 13:14:13,037 [INFO] PluginManage:292 - Check plugin projectmanager
+2020-03-16 13:14:13,053 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2020-03-16 13:14:13,053 [INFO] PluginManage:292 - Check plugin thirdparty
+2020-03-16 13:14:13,117 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/Sarthak/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 41 ms. number of Sw pack : 21
+2020-03-16 13:14:13,127 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2020-03-16 13:14:13,127 [INFO] PluginManage:292 - Check plugin tools
+2020-03-16 13:14:13,130 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2020-03-16 13:14:13,130 [INFO] PluginManage:292 - Check plugin tutovideos
+2020-03-16 13:14:13,131 [INFO] PluginManage:347 - Ignore plugin tutovideos (category:base)
+2020-03-16 13:14:13,131 [INFO] PluginManage:292 - Check plugin updater
+2020-03-16 13:14:13,142 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2020-03-16 13:14:13,143 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2020-03-16 13:14:13,368 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-03-16 13:14:13,452 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,452 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2020-03-16 13:14:13,454 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,455 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2020-03-16 13:14:13,457 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,457 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2020-03-16 13:14:13,458 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,458 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2020-03-16 13:14:13,460 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,460 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2020-03-16 13:14:13,462 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,463 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2020-03-16 13:14:13,467 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,468 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2020-03-16 13:14:13,469 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,469 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2020-03-16 13:14:13,473 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,473 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2020-03-16 13:14:13,477 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,478 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2020-03-16 13:14:13,479 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,480 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2020-03-16 13:14:13,481 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,482 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2020-03-16 13:14:13,486 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,486 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2020-03-16 13:14:13,489 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,489 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2020-03-16 13:14:13,491 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,491 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2020-03-16 13:14:13,493 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,493 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2020-03-16 13:14:13,495 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,495 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2020-03-16 13:14:13,497 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,498 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2020-03-16 13:14:13,500 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,500 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2020-03-16 13:14:13,501 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,501 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2020-03-16 13:14:13,504 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,505 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2020-03-16 13:14:13,507 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,508 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2020-03-16 13:14:13,510 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,510 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2020-03-16 13:14:13,512 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,513 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2020-03-16 13:14:13,518 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,521 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2020-03-16 13:14:13,523 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,523 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2020-03-16 13:14:13,526 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,526 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2020-03-16 13:14:13,529 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,530 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2020-03-16 13:14:13,532 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,532 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2020-03-16 13:14:13,536 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,536 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2020-03-16 13:14:13,538 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,538 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2020-03-16 13:14:13,541 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,542 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2020-03-16 13:14:13,544 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,544 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2020-03-16 13:14:13,546 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,546 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2020-03-16 13:14:13,548 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,548 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2020-03-16 13:14:13,550 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,551 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2020-03-16 13:14:13,553 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-03-16 13:14:13,553 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2020-03-16 13:14:14,166 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2020-03-16 13:14:14,167 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: null
+2020-03-16 13:14:14,331 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-03-16 13:14:14,502 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-03-16 13:14:14,506 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-03-16 13:14:14,506 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-03-16 13:14:14,511 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2020-03-16 13:14:14,511 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2020-03-16 13:14:14,515 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin\STM32_Programmer_CLI.exe -l
+2020-03-16 13:14:14,715 [INFO] MainDdrPanel:93 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2020-03-16 13:14:14,719 [INFO] Updater:886 - Updater Version found : 5.6.0
+2020-03-16 13:14:14,735 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2020-03-16 13:14:14,795 [INFO] MainUpdater:452 - Copy updater definitions from MX database
+2020-03-16 13:14:14,931 [INFO] MainUpdater:2230 - connection check result : 10
+2020-03-16 13:14:14,932 [INFO] MainUpdater:2874 - Updater definition file requires update
+2020-03-16 13:14:14,932 [INFO] MainUpdater:236 - Updater Check For Update Now.
+2020-03-16 13:14:14,933 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-03-16 13:14:14,988 [INFO] ServerAccessManage:348 - Download File updaters.zip
+2020-03-16 13:14:15,067 [INFO] FileExtend:225 - Unzip File : updaters.zip
+2020-03-16 13:14:15,067 [INFO] FileExtend:240 - Standard Zip Deflate
+2020-03-16 13:14:16,138 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2020-03-16 13:14:16,806 [INFO] ServerAccessManage:348 - Download File PacksControlFlags.xml
+2020-03-16 13:14:16,937 [INFO] ServerAccessManage:348 - Download File cubemx.pidx
+2020-03-16 13:14:17,014 [INFO] LoadServerUpdatesThread:301 - End of LoadServerUpdate Thread
+2020-03-16 13:14:17,040 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2020-03-16 13:14:17,182 [INFO] MainUpdater:2230 - connection check result : 10
+2020-03-16 13:14:17,182 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2020-03-16 13:14:17,336 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2020-03-16 13:14:17,356 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2020-03-16 13:14:17,359 [INFO] DbMcusXml:110 - Load MCU database from C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/families.xml
+2020-03-16 13:14:18,894 [INFO] DbMcusJson:90 - JSON generation date=Tue Feb 11 20:32:54 IST 2020 (1581433374)
+2020-03-16 13:14:19,187 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/Sarthak/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2020-03-16 13:14:19,295 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/Sarthak/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 12 ms. number of Sw pack : 22
+2020-03-16 13:14:19,296 [INFO] Engine:366 - softwarePackList size : 22
+2020-03-16 13:14:19,306 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-BLE1 have been done, and update is requested
+2020-03-16 13:14:19,374 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-MEMS1 have been done, and update is requested
+2020-03-16 13:14:19,384 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-AI have been done, and update is requested
+2020-03-16 13:14:19,396 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-NFC4 have been done, and update is requested
+2020-03-16 13:14:19,406 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-GNSS1 have been done, and update is requested
+2020-03-16 13:14:19,466 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-MEMS1 have been done, and update is requested
+2020-03-16 13:14:19,476 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-AI have been done, and update is requested
+2020-03-16 13:14:19,660 [INFO] DbMcus:171 - Found 1670 MCUs (1625 are supported by CubeMX, 1625 are visible in CubeMX)
+2020-03-16 13:14:19,661 [INFO] ApiDb:158 - Load user favorites file C:\Users\Sarthak/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2020-03-16 13:14:19,661 [INFO] ApiDb:163 - User favorites MCUs=[]
+2020-03-16 13:14:19,661 [INFO] DbMcus:183 - Set 0 / 0 favorites MCUs
+2020-03-16 13:14:19,704 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-MEMS1 have been done, and update is requested
+2020-03-16 13:14:19,714 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-AI have been done, and update is requested
+2020-03-16 13:14:19,725 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-NFC4 have been done, and update is requested
+2020-03-16 13:14:19,735 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-GNSS1 have been done, and update is requested
+2020-03-16 13:14:19,745 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-AI have been done, and update is requested
+2020-03-16 13:14:19,752 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-BLE1 have been done, and update is requested
+2020-03-16 13:14:19,762 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-BLE2 have been done, and update is requested
+2020-03-16 13:14:19,773 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-GNSS1 have been done, and update is requested
+2020-03-16 13:14:20,130 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-MEMS1 have been done, and update is requested
+2020-03-16 13:14:20,139 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-NFC4 have been done, and update is requested
+2020-03-16 13:14:20,153 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-SUBG2 have been done, and update is requested
+2020-03-16 13:14:20,162 [INFO] Engine:382 - compute dependency for SwPack X-CUBE-TOUCHGFX have been done, no update is requested
+2020-03-16 13:14:20,168 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-ALGOBUILD have been done, and update is requested
+2020-03-16 13:14:20,213 [INFO] Engine:378 - compute dependency for SwPack CMSIS have been done, and update is requested
+2020-03-16 13:14:20,228 [INFO] Engine:382 - compute dependency for SwPack FreeRTOS have been done, no update is requested
+2020-03-16 13:14:20,880 [INFO] DbMcusAds:143 - JSON generation date=Wed Feb 20 22:16:15 IST 2019 (1550681175)
+2020-03-16 13:14:20,886 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2020-03-16 13:14:20,955 [INFO] McuDetailPanel:181 - Set advertising image to C:/Users/Sarthak/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2020-03-16 13:14:20,979 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343529525, 1584343529526]
+2020-03-16 13:14:20,980 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM0 CMSIS id : 1584343528771
+2020-03-16 13:14:20,980 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343529525, 1584343529526]
+2020-03-16 13:14:20,980 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM0 CMSIS id : 1584343528773
+2020-03-16 13:14:20,980 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343531757, 1584343529526]
+2020-03-16 13:14:20,980 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM0+ CMSIS id : 1584343528775
+2020-03-16 13:14:20,980 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343531757, 1584343529526]
+2020-03-16 13:14:20,981 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM0+ CMSIS id : 1584343528777
+2020-03-16 13:14:20,981 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343530339, 1584343529526]
+2020-03-16 13:14:20,981 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM1 CMSIS id : 1584343528779
+2020-03-16 13:14:20,981 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343530339, 1584343529526]
+2020-03-16 13:14:20,981 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM1 CMSIS id : 1584343528781
+2020-03-16 13:14:20,981 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343532793, 1584343529526]
+2020-03-16 13:14:20,982 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM3 CMSIS id : 1584343528783
+2020-03-16 13:14:20,982 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343532793, 1584343529526]
+2020-03-16 13:14:20,982 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM3 CMSIS id : 1584343528785
+2020-03-16 13:14:20,982 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343532211, 1584343529526]
+2020-03-16 13:14:20,982 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM4 CMSIS id : 1584343528787
+2020-03-16 13:14:20,982 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343532211, 1584343529526]
+2020-03-16 13:14:20,982 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM4 CMSIS id : 1584343528789
+2020-03-16 13:14:20,983 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343532051, 1584343529526]
+2020-03-16 13:14:20,983 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM7 CMSIS id : 1584343528791
+2020-03-16 13:14:20,983 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343532051, 1584343529526]
+2020-03-16 13:14:20,983 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM7 CMSIS id : 1584343528793
+2020-03-16 13:14:20,983 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343529612, 1584343529526]
+2020-03-16 13:14:20,983 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM23 CMSIS id : 1584343528795
+2020-03-16 13:14:20,983 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343529612, 1584343529526]
+2020-03-16 13:14:20,984 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM23 CMSIS id : 1584343528797
+2020-03-16 13:14:20,984 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343531553, 1584343529526]
+2020-03-16 13:14:20,984 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM33 CMSIS id : 1584343528799
+2020-03-16 13:14:20,984 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343531553, 1584343529526]
+2020-03-16 13:14:20,984 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM33 CMSIS id : 1584343528801
+2020-03-16 13:14:20,984 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343532837, 1584343529526]
+2020-03-16 13:14:20,984 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM35P CMSIS id : 1584343528803
+2020-03-16 13:14:20,985 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343532837, 1584343529526]
+2020-03-16 13:14:20,985 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM35P CMSIS id : 1584343528805
+2020-03-16 13:14:20,985 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343532427, 1584343529526]
+2020-03-16 13:14:20,985 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMSC000 CMSIS id : 1584343528807
+2020-03-16 13:14:20,985 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343532427, 1584343529526]
+2020-03-16 13:14:20,985 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMSC000 CMSIS id : 1584343528809
+2020-03-16 13:14:20,985 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343532235, 1584343529526]
+2020-03-16 13:14:20,986 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMSC300 CMSIS id : 1584343528811
+2020-03-16 13:14:20,986 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343532235, 1584343529526]
+2020-03-16 13:14:20,986 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMSC300 CMSIS id : 1584343528813
+2020-03-16 13:14:20,986 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343530658, 1584343529526]
+2020-03-16 13:14:20,986 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMv8MBL CMSIS id : 1584343528815
+2020-03-16 13:14:20,986 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343530658, 1584343529526]
+2020-03-16 13:14:20,986 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMv8MBL CMSIS id : 1584343528817
+2020-03-16 13:14:20,987 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343531293, 1584343529526]
+2020-03-16 13:14:20,987 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMv8MML CMSIS id : 1584343528819
+2020-03-16 13:14:20,987 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343531293, 1584343529526]
+2020-03-16 13:14:20,987 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMv8MML CMSIS id : 1584343528821
+2020-03-16 13:14:20,987 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343532901, 1584343529526]
+2020-03-16 13:14:20,987 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMv81MML CMSIS id : 1584343528823
+2020-03-16 13:14:20,988 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343529844, 1584343529526]
+2020-03-16 13:14:20,988 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMCA5 CMSIS id : 1584343528825
+2020-03-16 13:14:20,988 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343532106, 1584343529526]
+2020-03-16 13:14:20,988 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMCA7 CMSIS id : 1584343528827
+2020-03-16 13:14:20,988 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343532415, 1584343529526]
+2020-03-16 13:14:20,988 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : ARMCA9 CMSIS id : 1584343528829
+2020-03-16 13:14:20,988 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343529512]
+2020-03-16 13:14:20,989 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1584343528839
+2020-03-16 13:14:20,989 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1584343532088, 1584343529595]
+2020-03-16 13:14:20,989 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : RTOS RTX IFX id : 1584343528913
+2020-03-16 13:14:21,034 [WARN] ModelIntegratedPack:50 - Cannot find a middleware corresponding to integrated pack FreeRTOS
+2020-03-16 13:14:21,087 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/Sarthak/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2020-03-16 13:14:21,188 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/Sarthak/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 9 ms. number of Sw pack : 22
+2020-03-16 13:14:21,407 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/Sarthak/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2020-03-16 13:14:21,484 [INFO] IntegrityCheckThread:98 - End integrity checks thread
+2020-03-16 13:14:22,420 [INFO] ServerAccessManage:348 - Download File mcusAds.json._tmp_
+2020-03-16 13:14:22,446 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2020-03-16 13:14:22,846 [INFO] ServerAccessManage:348 - Download File mcusDocs.json._tmp_
+2020-03-16 13:14:23,031 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2020-03-16 13:14:23,429 [INFO] ServerAccessManage:348 - Download File mcusFeaturesAndDescription.json._tmp_
+2020-03-16 13:14:24,913 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2020-03-16 13:14:25,144 [INFO] ServerAccessManage:348 - Download File boardsDocs.json._tmp_
+2020-03-16 13:14:25,205 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2020-03-16 13:14:25,611 [INFO] ServerAccessManage:348 - Download File boards.json._tmp_
+2020-03-16 13:14:25,831 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2020-03-16 13:14:26,293 [INFO] ServerAccessManage:348 - Download File crdb.zip
+2020-03-16 13:14:27,131 [INFO] FileExtend:225 - Unzip File : crdb.zip
+2020-03-16 13:14:27,132 [INFO] FileExtend:240 - Standard Zip Deflate
+2020-03-16 13:14:27,183 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2020-03-16 13:14:27,184 [INFO] DbMcusAds:143 - JSON generation date=Thu Mar 12 20:38:29 IST 2020 (1584025709)
+2020-03-16 13:14:27,191 [INFO] DbMcusDocs:142 - JSON generation date=Wed Feb 26 14:23:47 IST 2020 (1582707227)
+2020-03-16 13:14:27,324 [INFO] DbMcusDocs:77 - Found 571 MCUs documents
+2020-03-16 13:14:27,326 [INFO] ApiDb:186 - Save user favorites file C:\Users\Sarthak/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2020-03-16 13:14:27,327 [INFO] ApiDb:191 - User favorites MCUs=[]
+2020-03-16 13:14:27,327 [INFO] DbMcusXml:110 - Load MCU database from C:\ST\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/families.xml
+2020-03-16 13:14:27,766 [INFO] DbMcusJson:90 - JSON generation date=Wed Feb 26 14:23:47 IST 2020 (1582707227)
+2020-03-16 13:14:28,163 [INFO] DbMcus:171 - Found 1670 MCUs (1625 are supported by CubeMX, 1625 are visible in CubeMX)
+2020-03-16 13:14:28,164 [INFO] ApiDb:158 - Load user favorites file C:\Users\Sarthak/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2020-03-16 13:14:28,164 [INFO] ApiDb:163 - User favorites MCUs=[]
+2020-03-16 13:14:28,164 [INFO] DbMcus:183 - Set 0 / 0 favorites MCUs
+2020-03-16 13:14:28,205 [INFO] McuFilterPanel:249 - Update 0 favorites MCUs
+2020-03-16 13:14:28,437 [INFO] DbBoardsDocs:131 - JSON generation date=Wed Feb 26 14:23:47 IST 2020 (1582707227)
+2020-03-16 13:14:28,446 [INFO] DbBoardsPdsc:92 - Found 22 items
+2020-03-16 13:14:28,448 [INFO] DbBoardsPdsc:92 - Found 9 items
+2020-03-16 13:14:28,450 [INFO] DbBoardsPdsc:92 - Found 28 items
+2020-03-16 13:14:28,452 [INFO] DbBoardsPdsc:92 - Found 1 items
+2020-03-16 13:14:28,455 [INFO] DbBoardsPdsc:92 - Found 40 items
+2020-03-16 13:14:28,460 [INFO] DbBoardsPdsc:92 - Found 39 items
+2020-03-16 13:14:28,461 [INFO] DbBoardsPdsc:92 - Found 2 items
+2020-03-16 13:14:28,463 [INFO] DbBoardsPdsc:92 - Found 4 items
+2020-03-16 13:14:28,469 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2020-03-16 13:14:28,469 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-DK: unknown feature type=WIFI, name=, username=WIFI 802.11 b/g/n, n=1
+2020-03-16 13:14:28,488 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2020-03-16 13:14:28,488 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2020-03-16 13:14:28,489 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=WIFI, name=, username=WIFI 802.11 a/b/g/n, n=1
+2020-03-16 13:14:28,489 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2020-03-16 13:14:28,499 [INFO] DbBoardsJson:80 - JSON generation date=Tue Feb 11 19:23:55 IST 2020 (1581429235)
+2020-03-16 13:14:28,506 [INFO] DbBoards:120 - Found 145 boards (142 are supported by CubeMX)
+2020-03-16 13:14:28,511 [INFO] DbBoardsDocs:131 - JSON generation date=Wed Feb 26 14:23:47 IST 2020 (1582707227)
+2020-03-16 13:14:28,523 [INFO] DbBoardsDocs:70 - Found 173 boards documents
+2020-03-16 13:14:28,526 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2020-03-16 13:14:28,526 [WARN] DbBoards:130 - board NUCLEO-L4P5ZG has no document id list !
+2020-03-16 13:14:28,527 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2020-03-16 13:14:28,527 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2020-03-16 13:14:28,527 [WARN] DbBoards:130 - board NUCLEO-WB35CE has no document id list !
+2020-03-16 13:14:28,528 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2020-03-16 13:14:28,528 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2020-03-16 13:14:28,529 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2020-03-16 13:14:28,529 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2020-03-16 13:14:28,529 [WARN] DbBoards:130 - board STM32MP157A-DK1 has no document id list !
+2020-03-16 13:14:28,530 [WARN] DbBoards:130 - board STM32L4P5G-DK has no document id list !
+2020-03-16 13:14:28,530 [WARN] DbBoards:130 - board STM32100E-EVAL has no document id list !
+2020-03-16 13:14:28,530 [WARN] DbBoards:130 - board STM32303C-EVAL has no document id list !
+2020-03-16 13:14:28,530 [WARN] DbBoards:130 - board STM32L152D-EVAL has no document id list !
+2020-03-16 13:14:28,530 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2020-03-16 13:14:28,531 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2020-03-16 13:14:28,531 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2020-03-16 13:14:28,531 [WARN] DbBoards:130 - board STEVAL-BFA001V1B has no document id list !
+2020-03-16 13:14:28,531 [WARN] DbBoards:130 - board STEVAL-BFA001V2B has no document id list !
+2020-03-16 13:14:28,531 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2020-03-16 13:14:28,531 [WARN] DbBoards:130 - board STEVAL-STWINKT1 has no document id list !
+2020-03-16 13:14:28,532 [WARN] DbBoards:130 - board STEVAL-IDP005V1 has no document id list !
+2020-03-16 13:14:28,532 [WARN] DbBoards:130 - board STEVAL-IDP005V2 has no document id list !
+2020-03-16 13:14:29,755 [INFO] ApiDb:158 - Load user favorites file C:\Users\Sarthak/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2020-03-16 13:14:29,755 [INFO] ApiDb:163 - User favorites Boards=[]
+2020-03-16 13:14:29,755 [INFO] DbBoards:209 - Set 0 / 0 favorites Boards
+2020-03-16 13:14:29,780 [INFO] DbBoardsDocs:70 - Found 346 boards documents
+2020-03-16 13:14:29,781 [INFO] ApiDb:186 - Save user favorites file C:\Users\Sarthak/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2020-03-16 13:14:29,782 [INFO] ApiDb:191 - User favorites Boards=[]
+2020-03-16 13:14:29,786 [INFO] DbBoardsPdsc:92 - Found 22 items
+2020-03-16 13:14:29,789 [INFO] DbBoardsPdsc:92 - Found 9 items
+2020-03-16 13:14:29,793 [INFO] DbBoardsPdsc:92 - Found 28 items
+2020-03-16 13:14:29,795 [INFO] DbBoardsPdsc:92 - Found 1 items
+2020-03-16 13:14:29,801 [INFO] DbBoardsPdsc:92 - Found 40 items
+2020-03-16 13:14:29,808 [INFO] DbBoardsPdsc:92 - Found 39 items
+2020-03-16 13:14:29,811 [INFO] DbBoardsPdsc:92 - Found 2 items
+2020-03-16 13:14:29,814 [INFO] DbBoardsPdsc:92 - Found 4 items
+2020-03-16 13:14:29,818 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2020-03-16 13:14:29,818 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-DK: unknown feature type=WIFI, name=, username=WIFI 802.11 b/g/n, n=1
+2020-03-16 13:14:29,820 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2020-03-16 13:14:29,820 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2020-03-16 13:14:29,821 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=WIFI, name=, username=WIFI 802.11 a/b/g/n, n=1
+2020-03-16 13:14:29,821 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2020-03-16 13:14:29,835 [INFO] DbBoardsJson:80 - JSON generation date=Tue Feb 11 19:23:55 IST 2020 (1581429235)
+2020-03-16 13:14:29,846 [INFO] DbBoards:120 - Found 145 boards (142 are supported by CubeMX)
+2020-03-16 13:14:29,848 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2020-03-16 13:14:29,848 [WARN] DbBoards:130 - board NUCLEO-L4P5ZG has no document id list !
+2020-03-16 13:14:29,851 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2020-03-16 13:14:29,851 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2020-03-16 13:14:29,851 [WARN] DbBoards:130 - board NUCLEO-WB35CE has no document id list !
+2020-03-16 13:14:29,852 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2020-03-16 13:14:29,853 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2020-03-16 13:14:29,854 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2020-03-16 13:14:29,855 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2020-03-16 13:14:29,856 [WARN] DbBoards:130 - board STM32MP157A-DK1 has no document id list !
+2020-03-16 13:14:29,856 [WARN] DbBoards:130 - board STM32L4P5G-DK has no document id list !
+2020-03-16 13:14:29,856 [WARN] DbBoards:130 - board STM32100E-EVAL has no document id list !
+2020-03-16 13:14:29,857 [WARN] DbBoards:130 - board STM32303C-EVAL has no document id list !
+2020-03-16 13:14:29,857 [WARN] DbBoards:130 - board STM32L152D-EVAL has no document id list !
+2020-03-16 13:14:29,858 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2020-03-16 13:14:29,859 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2020-03-16 13:14:29,860 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2020-03-16 13:14:29,860 [WARN] DbBoards:130 - board STEVAL-BFA001V1B has no document id list !
+2020-03-16 13:14:29,861 [WARN] DbBoards:130 - board STEVAL-BFA001V2B has no document id list !
+2020-03-16 13:14:29,861 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2020-03-16 13:14:29,861 [WARN] DbBoards:130 - board STEVAL-STWINKT1 has no document id list !
+2020-03-16 13:14:29,861 [WARN] DbBoards:130 - board STEVAL-IDP005V1 has no document id list !
+2020-03-16 13:14:29,862 [WARN] DbBoards:130 - board STEVAL-IDP005V2 has no document id list !
+2020-03-16 13:14:31,064 [INFO] ApiDb:158 - Load user favorites file C:\Users\Sarthak/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2020-03-16 13:14:31,064 [INFO] ApiDb:163 - User favorites Boards=[]
+2020-03-16 13:14:31,064 [INFO] DbBoards:209 - Set 0 / 0 favorites Boards
+2020-03-16 13:14:31,201 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2020-03-16 13:14:31,201 [INFO] MultiScanPanel:739 - Refresh data is succesful
+2020-03-16 13:14:31,210 [INFO] McuFilterPanel:249 - Update 0 favorites MCUs
+2020-03-16 13:14:31,424 [INFO] ServerAccessManage:348 - Download File 
+2020-03-16 13:14:31,632 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2020-03-16 13:14:31,681 [INFO] BoardDetailPanel:180 - Set advertising image to C:/Users/Sarthak/STM32Cube/Repository/\STM32L4_MCUs_N4239S_big.jpg
+2020-03-16 13:14:31,707 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2020-03-16 13:14:31,822 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: C:\Users\Sarthak\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2020-03-16 13:16:17,431 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.25.0
+2020-03-17 10:01:22,516 [INFO] Activator:176 - 
+
+
+2020-03-17 10:01:22,546 [INFO] Activator:177 - !SESSION log4j initialized
+2020-03-18 11:52:59,225 [INFO] Activator:176 - 
+
+
+2020-03-18 11:52:59,225 [INFO] Activator:177 - !SESSION log4j initialized
+2020-03-19 19:58:32,834 [INFO] Activator:176 - 
+
+
+2020-03-19 19:58:32,837 [INFO] Activator:177 - !SESSION log4j initialized
+2020-03-20 16:38:19,094 [INFO] Activator:176 - 
+
+
+2020-03-20 16:38:19,094 [INFO] Activator:177 - !SESSION log4j initialized
+2020-03-21 01:13:06,931 [INFO] Activator:176 - 
+
+
+2020-03-21 01:13:06,931 [INFO] Activator:177 - !SESSION log4j initialized
+2020-03-21 10:44:21,870 [INFO] Activator:176 - 
+
+
+2020-03-21 10:44:21,877 [INFO] Activator:177 - !SESSION log4j initialized
+2020-03-21 16:29:28,891 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1512919854 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,907 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.151175592 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,907 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.1504584103 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,907 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.895906240 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,907 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.1505974484 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,922 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.58071730 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,922 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.1677072779 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,922 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.1720414971 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,922 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.48765758 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,938 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.33229316 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,938 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.1511212790 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,938 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.1226961541 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,938 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn.50078536 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,954 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.freestanding.1714671380 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,954 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.nomoveloopinvariants.1216646071 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,960 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.341344876 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,960 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.architecture.930125598 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,960 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.774136310 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,960 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.376816669 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,976 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.c.767884129 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,976 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.1494666453 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,976 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.923553417 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,976 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.1489938383 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,991 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.1116327311 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,991 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.size.143998234 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,991 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.make.1158577474 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:28,991 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.1232909954 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,023 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.741724875 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,023 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.1466614989 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,023 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.503117683 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,023 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.841990382 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,038 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.986026770 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,038 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.835454483 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,038 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.1828406353 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,038 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.928474231 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,054 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.465120545 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,054 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.435600352 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,060 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.1790806386 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,060 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.358731576 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,060 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn.424922486 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,060 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.freestanding.1531677157 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,060 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.1441592869 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,076 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1151527485 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,076 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.442336128 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,076 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.2011124726 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,076 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.c.404187120 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,092 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.1018155771 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,092 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.1464040524 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,092 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.1703850616 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,092 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.2115636337 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,092 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.size.297124550 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,107 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.make.1415140296 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:29,107 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.1084272834 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,574 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1512919854 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,590 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.151175592 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,590 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.1504584103 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,590 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.895906240 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,590 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.1505974484 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,605 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.58071730 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,605 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.1677072779 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,605 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.1720414971 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,621 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.48765758 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,621 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.33229316 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,627 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.1511212790 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,627 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.1226961541 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,627 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn.50078536 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,643 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.freestanding.1714671380 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,643 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.nomoveloopinvariants.1216646071 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,643 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.341344876 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,659 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.architecture.930125598 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,659 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.774136310 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,659 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.376816669 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,659 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.c.767884129 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,677 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.1494666453 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,681 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.923553417 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,681 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.1489938383 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,681 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.1116327311 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,681 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.size.143998234 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,696 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.make.1158577474 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,696 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.1232909954 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,712 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.741724875 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,712 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.1466614989 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,712 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.503117683 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,727 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.841990382 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,727 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.986026770 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,727 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.835454483 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,743 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.1828406353 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,743 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.928474231 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,743 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.465120545 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,759 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.435600352 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,763 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.1790806386 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,768 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.358731576 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,773 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn.424922486 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,777 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.optimization.freestanding.1531677157 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,779 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.1441592869 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,779 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1151527485 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,779 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.442336128 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,795 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.2011124726 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,795 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.c.404187120 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,795 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.1018155771 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,795 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.1464040524 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,810 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.1703850616 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,810 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.2115636337 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,810 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.size.297124550 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,827 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.make.1415140296 uses a null category that is invalid in its context. The option was ignored.
+2020-03-21 16:29:47,827 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.1084272834 uses a null category that is invalid in its context. The option was ignored.
+2020-03-25 21:21:51,153 [INFO] Activator:176 - 
+
+
+2020-03-25 21:21:51,159 [INFO] Activator:177 - !SESSION log4j initialized
+2020-03-26 23:01:39,604 [INFO] Activator:176 - 
+
+
+2020-03-26 23:01:39,622 [INFO] Activator:177 - !SESSION log4j initialized
+2020-03-27 16:41:34,439 [INFO] Activator:176 - 
+
+
+2020-03-27 16:41:34,451 [INFO] Activator:177 - !SESSION log4j initialized
+2020-03-30 13:02:42,432 [INFO] Activator:176 - 
+
+
+2020-03-30 13:02:42,453 [INFO] Activator:177 - !SESSION log4j initialized
+2020-04-02 11:45:30,656 [INFO] Activator:176 - 
+
+
+2020-04-02 11:45:30,684 [INFO] Activator:177 - !SESSION log4j initialized
+2020-04-05 17:28:30,846 [INFO] Activator:176 - 
+
+
+2020-04-05 17:28:30,859 [INFO] Activator:177 - !SESSION log4j initialized

@@ -1,0 +1,8 @@
+"Src/007i2c_master_tx_testing.o"
+"Src/syscalls.o"
+"Src/sysmem.o"
+"Startup/startup_stm32f407vgtx.o"
+"drivers/src/gpio_driver.o"
+"drivers/src/i2c_driver.o"
+"drivers/src/spi_driver.o"
+"drivers/src/usart_driver.o"

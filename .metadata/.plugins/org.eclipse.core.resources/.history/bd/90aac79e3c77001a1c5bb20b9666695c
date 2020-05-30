@@ -1,0 +1,332 @@
+/*
+ * usart_driver.c
+ *
+ *  Created on: Apr 2, 2020
+ *      Author: Sarthak
+ */
+
+
+#include "usart_driver.h"
+
+
+
+/******************************************************************************************
+ *								APIs supported by this driver
+ *		 For more information about the APIs check the function definitions
+ ******************************************************************************************/
+void USART_SetBaudRate(USART_RegisDef_t *pUSARTx, uint32_t BaudRate)
+{
+
+	//Variable to hold the APB clock
+	uint32_t PCLKx;
+
+	uint32_t usartdiv;
+
+	//variables to hold Mantissa and Fraction values
+	uint32_t M_part,F_part;
+
+  uint32_t tempreg=0;
+
+  //Get the value of APB bus clock in to the variable PCLKx
+  if(pUSARTx == USART1 || pUSARTx == USART6)
+  {
+	   //USART1 and USART6 are hanging on APB2 bus
+	   PCLKx = RCC_GetPCLK2Value();
+  }else
+  {
+	   PCLKx = RCC_GetPCLK1Value();
+  }
+
+  //Check for OVER8 configuration bit
+  if(pUSARTx->CR1 & (1 << USART_CR1_OVER8))
+  {
+	   //OVER8 = 1 , over sampling by 8
+	   usartdiv = ((25 * PCLKx) / (2 *BaudRate));
+  }else
+  {
+	   //over sampling by 16
+	   usartdiv = ((25 * PCLKx) / (4 *BaudRate));
+  }
+
+  //Calculate the Mantissa part
+  M_part = usartdiv/100;
+
+  //Place the Mantissa part in appropriate bit position . refer USART_BRR
+  tempreg |= M_part << 4;
+
+  //Extract the fraction part
+  F_part = (usartdiv - (M_part * 100));
+
+  //Calculate the final fractional
+  if(pUSARTx->CR1 & ( 1 << USART_CR1_OVER8))
+   {
+	  //OVER8 = 1 , over sampling by 8
+	  F_part = ((( F_part * 8)+ 50) / 100)& ((uint8_t)0x07);
+
+   }else
+   {
+	   //over sampling by 16
+	   F_part = ((( F_part * 16)+ 50) / 100) & ((uint8_t)0x0F);
+
+   }
+
+  //Place the fractional part in appropriate bit position . refer USART_BRR
+  tempreg |= F_part;
+
+  //copy the value of tempreg in to BRR register
+  pUSARTx->BRR = tempreg;
+}
+/*
+ * Peripheral Clock setup
+ */
+/**
+ *
+ * @param pUSARTx
+ * @param EnorDi
+ */
+void USART_PeriClockControl(USART_RegisDef_t *pUSARTx, uint8_t EnorDi)
+{
+
+}
+
+/*
+ * Init and De-init
+ */
+/**
+ *
+ * @param pUSARTHandle
+ */
+void USART_Init(USART_Handle_t *pUSARTHandle)
+{
+	//Temporary variable
+		uint32_t tempreg=0;
+
+	/******************************** Configuration of CR1******************************************/
+
+		//Implement the code to enable the Clock for given USART peripheral
+		 USART_PeriClockControl(pUSARTHandle->pUSARTx,ENABLE);
+
+		//Enable USART Tx and Rx engines according to the USART_Mode configuration item
+		if ( pUSARTHandle->USART_Config.USART_Mode == USART_MODE_ONLY_RX)
+		{
+			//Implement the code to enable the Receiver bit field
+			tempreg|= (1 << USART_CR1_RE);
+		}else if (pUSARTHandle->USART_Config.USART_Mode == USART_MODE_ONLY_TX)
+		{
+			//Implement the code to enable the Transmitter bit field
+			tempreg |= ( 1 << USART_CR1_TE );
+
+		}else if (pUSARTHandle->USART_Config.USART_Mode == USART_MODE_TXRX)
+		{
+			//Implement the code to enable the both Transmitter and Receiver bit fields
+			tempreg |= ( ( 1 << USART_CR1_RE) | ( 1 << USART_CR1_TE) );
+		}
+
+	    //Implement the code to configure the Word length configuration item
+		tempreg |= pUSARTHandle->USART_Config.USART_WordLength << USART_CR1_M ;
+
+
+	    //Configuration of parity control bit fields
+		if ( pUSARTHandle->USART_Config.USART_ParityControl == USART_PARITY_EN_EVEN)
+		{
+			//Implement the code to enable the parity control
+			tempreg |= ( 1 << USART_CR1_PCE);
+
+			//Implement the code to enable EVEN parity
+			//Not required because by default EVEN parity will be selected once you enable the parity control
+
+		}else if (pUSARTHandle->USART_Config.USART_ParityControl == USART_PARITY_EN_ODD )
+		{
+			//Implement the code to enable the parity control
+		    tempreg |= ( 1 << USART_CR1_PCE);
+
+		    //Implement the code to enable ODD parity
+		    tempreg |= ( 1 << USART_CR1_PS);
+
+		}
+
+	   //Program the CR1 register
+		pUSARTHandle->pUSARTx->CR1 = tempreg;
+
+	/******************************** Configuration of CR2******************************************/
+
+		tempreg=0;
+
+		//Implement the code to configure the number of stop bits inserted during USART frame transmission
+		tempreg |= pUSARTHandle->USART_Config.USART_NoOfStopBits << USART_CR2_STOP_1_0;
+
+		//Program the CR2 register
+		pUSARTHandle->pUSARTx->CR2 = tempreg;
+
+	/******************************** Configuration of CR3******************************************/
+
+		tempreg=0;
+
+		//Configuration of USART hardware flow control
+		if ( pUSARTHandle->USART_Config.USART_HWFlowControl == USART_HW_FLOW_CTRL_CTS)
+		{
+			//Implement the code to enable CTS flow control
+			tempreg |= ( 1 << USART_CR3_CTSE);
+
+
+		}else if (pUSARTHandle->USART_Config.USART_HWFlowControl == USART_HW_FLOW_CTRL_RTS)
+		{
+			//Implement the code to enable RTS flow control
+			tempreg |= ( 1 << USART_CR3_RTSE);
+
+		}else if (pUSARTHandle->USART_Config.USART_HWFlowControl == USART_HW_FLOW_CTRL_CTS_RTS)
+		{
+			//Implement the code to enable both CTS and RTS Flow control
+			tempreg |= ( 1 << USART_CR3_CTSE);
+			tempreg |= ( 1 << USART_CR3_RTSE);
+		}
+
+
+		pUSARTHandle->pUSARTx->CR3 = tempreg;
+
+	/******************************** Configuration of BRR(Baudrate register)******************************************/
+
+		//Implement the code to configure the baud rate
+		USART_SetBaudRate(pUSARTHandle->pUSARTx,pUSARTHandle->USART_Config.USART_Baud);
+
+	}
+
+/**
+ *
+ * @param pUSARTx
+ */
+void USART_DeInit(USART_RegisDef_t *pUSARTx)
+{
+
+}
+
+
+/*
+ * Data Send and Receive
+ */
+/**
+ *
+ * @param pUSARTx
+ * @param pTxBuffer
+ * @param Len
+ */
+void USART_SendData(USART_RegisDef_t *pUSARTx,uint8_t *pTxBuffer, uint32_t Len)
+{
+
+}
+/**
+ *
+ * @param pUSARTx
+ * @param pRxBuffer
+ * @param Len
+ */
+void USART_ReceiveData(USART_RegisDef_t *pUSARTx, uint8_t *pRxBuffer, uint32_t Len)
+{
+
+}
+/**
+ *
+ * @param pUSARTHandle
+ * @param pTxBuffer
+ * @param Len
+ * @return
+ */
+uint8_t USART_SendDataIT(USART_Handle_t *pUSARTHandle,uint8_t *pTxBuffer, uint32_t Len)
+{
+
+return 0;}
+/**
+ *
+ * @param pUSARTHandle
+ * @param pRxBuffer
+ * @param Len
+ * @return
+ */
+uint8_t USART_ReceiveDataIT(USART_Handle_t *pUSARTHandle, uint8_t *pRxBuffer, uint32_t Len)
+{
+
+return 0;}
+
+/*
+ * IRQ Configuration and ISR handling
+ */
+/**
+ *
+ * @param IRQNumber
+ * @param EnorDi
+ */
+void USART_IRQInterruptConfig(uint8_t IRQNumber, uint8_t EnorDi)
+{
+
+}
+/**
+ *
+ * @param IRQNumber
+ * @param IRQPriority
+ */
+void USART_IRQPriorityConfig(uint8_t IRQNumber, uint32_t IRQPriority)
+{
+
+}
+/**
+ *
+ * @param pHandle
+ */
+void USART_IRQHandling(USART_Handle_t *pHandle)
+{
+
+}
+
+/*
+ * Other Peripheral Control APIs
+ */
+
+/**
+ *
+ * @param pUSARTx
+ * @param EnOrDi
+ */
+void USART_PeripheralControl(USART_RegisDef_t *pUSARTx, uint8_t EnOrDi)
+{
+
+	if(EnOrDi == ENABLE)
+	{
+		pUSARTx->CR1 |= (1 << 13);
+	}else
+	{
+		pUSARTx->CR1 &= ~(1 << 13);
+	}
+}
+/**
+ *
+ * @param pUSARTx
+ * @param FlagName
+ * @return
+ */
+uint8_t USART_GetFlagStatus(USART_RegisDef_t *pUSARTx , uint32_t FlagName)
+{
+return 0;
+}
+/**
+ *
+ * @param pUSARTx
+ * @param StatusFlagName
+ */
+void USART_ClearFlag(USART_RegisDef_t *pUSARTx, uint16_t StatusFlagName)
+{
+
+}
+
+/*
+ * Application callback
+ */
+/**
+ *
+ * @param pUSARTHandle
+ * @param AppEv
+ */
+void USART_ApplicationEventCallback(USART_Handle_t *pUSARTHandle,uint8_t AppEv)
+{
+
+}
+
